@@ -4,31 +4,95 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bio | Tobi Abass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      background-color: #f4f4f4;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8fafc;
+      color: #1f2937;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
     }
+
+    h1 {
+      color: #0f172a;
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+
     h2 {
-      color: #2c3e50;
+      color: #1e293b;
+      margin-top: 2em;
+      font-size: 1.5em;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 5px;
     }
-    p strong {
-      color: #333;
+
+    p, li {
+      font-size: 1.05em;
+      margin: 0.6em 0;
     }
+
+    ul {
+      padding-left: 20px;
+    }
+
     .back-link {
-      margin-top: 20px;
       display: inline-block;
+      margin-top: 40px;
+      padding: 10px 20px;
+      background-color: #3b82f6;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-link:hover {
+      background-color: #2563eb;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .tagline {
+      color: #475569;
+      font-style: italic;
+      font-size: 1.2em;
     }
   </style>
 </head>
 <body>
-  <h2>About Me</h2>
-  <p><strong>Name:</strong> Tobi Abass</p>
-  <p><strong>Current Role:</strong> Aspiring Cloud & Cybersecurity Specialist | ALX Software Engineering Program Trainee</p>
-  <p><strong>Brand Statement:</strong> Driven by a passion for secure systems and digital resilience, I am currently building strong hands-on skills in cloud infrastructure, network security, and remote systems management. My background in IT, combined with ongoing training in cloud engineering and cybersecurity, positions me to tackle real-world problems with technical creativity and strategic thinking.</p>
-  <p><strong>Interests:</strong> Cloud Computing • Network Engineering • Cybersecurity • Ethical Hacking • Linux Systems • AWS • Automation</p>
+  <header>
+    <h1>Tobi Abass</h1>
+    <p class="tagline">Cloud • Cybersecurity • Network Engineering Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>My name is Tobi Abass, and I’m an aspiring cloud and cybersecurity specialist currently advancing my skills through the ALX software engineering program. With a solid IT foundation and hands-on experience in cloud infrastructure, I’ve successfully deployed and managed Windows instances on AWS EC2, configured secure remote desktop environments, and used PowerShell to troubleshoot complex network and software issues.</p>
+    <p>I’m deeply passionate about cybersecurity and currently working toward earning my CCNA certification to strengthen my understanding of network security and infrastructure. My long-term goal is to help organizations design resilient cloud systems while defending against evolving digital threats.</p>
+  </section>
+
+  <section>
+    <h2>Key Skills</h2>
+    <ul>
+      <li>Cloud Infrastructure (AWS EC2, RDP configuration, PowerShell)</li>
+      <li>Cybersecurity (Currently pursuing CCNA)</li>
+      <li>Network Engineering & Troubleshooting</li>
+      <li>Remote Systems Management</li>
+      <li>Linux Environments</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Career Focus</h2>
+    <p>I’m committed to building secure, scalable, and automated cloud solutions while continuously exploring the fields of ethical hacking and cybersecurity analytics. I thrive in environments that challenge me to grow and contribute meaningfully to real-world tech problems.</p>
+  </section>
 
   <a href="index.html" class="back-link">⬅ Back to Home</a>
 </body>
